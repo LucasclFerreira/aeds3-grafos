@@ -57,5 +57,7 @@ int main() {
     grafo.adicionar_aresta(4, 6);
     grafo.adicionar_aresta(6, 7);
 
+    grafo.remover_aresta(0, 2);
+
     grafo.mostrar_lista();
 }
