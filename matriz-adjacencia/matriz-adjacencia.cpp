@@ -40,11 +40,17 @@ class Grafo {
 };
 
 int main() {
-    Grafo grafo = Grafo(4);
+    // r = 0; v = 1; s = 2; w = 3; t = 4; x = 5; u = 6; y = 7
+    Grafo grafo = Grafo(8);
     grafo.adicionar_aresta(0, 1);
     grafo.adicionar_aresta(0, 2);
-    grafo.adicionar_aresta(1, 2);
     grafo.adicionar_aresta(2, 3);
+    grafo.adicionar_aresta(3, 4);
+    grafo.adicionar_aresta(3, 5);
+    grafo.adicionar_aresta(4, 5);
+    grafo.adicionar_aresta(4, 6);
+    grafo.adicionar_aresta(6, 7);
+
     grafo.mostra_mat();
 
     return 0;
