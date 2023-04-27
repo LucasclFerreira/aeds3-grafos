@@ -59,11 +59,6 @@ class Grafo {
         }
 };
 
-void dfs(int *visitado, int posicao) {
-    if (visitado[posicao] != 0 ) return;
-    visitado[posicao] = 1;
-}
-
 int main() {
     int num_vertices = 8;
     int visitado[num_vertices];  // declarando vetor para usar no dfs
